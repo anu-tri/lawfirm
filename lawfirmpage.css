@@ -1,0 +1,61 @@
+/* navbar/footer by Tate */
+body {
+    background-image: url("images/nza_background.jpg");
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    margin-top: 5%;
+}
+.logo {
+    float: none;
+    padding-top: 10px;
+}
+.loginbtn{
+    float: right;
+    padding-right: 5%;
+}
+.loginbtn button {
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    padding: 10px;
+}
+.nav p {
+    color: lightgrey;
+    font-size: 22px;
+}
+.nav a {
+    color: rgb(0, 0, 0);
+}
+nav ul {
+    margin-right: 3px;
+    margin-left: 3px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+}
+nav .nav {
+    
+    justify-content: space-around;
+}
+footer .nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-top: solid;
+    border-width: 2px;
+}
+footer .nav a {
+    font-size: 12px;
+}
+.wrapper {
+    /* adjust these to whatever makes the footer fit at the bottom of the page */
+  min-height: 80%;
+  margin-bottom: -50px;
+}
+
